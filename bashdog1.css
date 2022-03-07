@@ -1,0 +1,285 @@
+/********* navbar ***********/
+
+body
+{
+    font-family:"montserrat";
+
+}
+
+.container-fluid
+{
+    padding: 1% 1%;
+    padding-bottom: 4.5rem;
+    
+}
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0%;
+}
+
+
+.title-image
+{
+    width: 50%;
+    z-index: -1;
+}
+
+.rotate-image
+{
+           
+        transform:rotateZ(30deg);
+}
+
+
+
+/************ title *************/
+
+
+#title
+{
+    background-color: #10a1f5;
+    color: #fff;
+    text-align: center;
+}
+
+.container-fluid
+{
+    padding: 1% 1%;
+    padding-bottom: 4.5rem;
+    
+}
+
+.big-heading
+{
+    font-family: "Montserrat-Black";
+    font-size: 4.0rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+/************** features *********************/
+
+
+
+
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.features-box
+{
+    text-align: center;
+    
+}
+
+.features-heading
+{
+    font-family: "Montserrat-Bold";
+}
+
+.icons
+{
+    color: #10a1f5;
+    margin-bottom: 1rem;
+}
+
+.icons:hover
+{
+    color: #ffd105;
+}
+
+
+
+/*********** testimonials ****************/
+
+
+
+#testimonials
+{
+    padding: 8% 16%;
+    background-color: #10a1f5;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+em
+{
+    font-size: 1rem;
+    color: black;
+}
+
+em:hover
+{
+    color: white;
+}
+
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-writing
+{
+    font-family: "Montserrat-Bold";
+    font-size: 3.0rem;
+    line-height: 1.5;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+
+/************** press **************/
+
+#press
+{
+    background-color: #fff2b8;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.press-logo
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+
+/********** pricing  **************/
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+
+}
+.card-header
+{
+    background-color: #10a1f5;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+    
+}
+
+.prc-text
+{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    text-align: center;
+    font-size:3.0rem;
+}
+
+.prc-sml
+{
+    font-family: "Montserrat-Bold";
+}
+
+
+/************ call to action ********/
+
+#cta
+{
+    background-color: #10a1f5;
+    padding: 8% 16%;
+    text-align: center;
+}
+
+.ctah3
+{
+    color: #fff;
+    font-family: "Montserrat-Bold";
+    font-size:3.0rem;
+    font-weight: bold;
+    
+}
+
+
+/********** contact us ********/
+
+#contactus
+{
+    position: static;
+    background-color: #fff2b8;
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.contus
+{
+    color: #3f4142;
+    font-family: "Montserrat-Bold";
+    font-size: 100;
+    font-weight: bold;
+}
+
+
+/********* footer  ***********/
+
+
+#footer {
+    background: #8f8f8f;
+    color: #fff;
+    text-align: center;
+    padding: 4% 2%;
+  }
+  .spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .social {
+    padding-bottom: 5%;
+  }
+  #jps
+  {
+      color: #fff;
+  }
